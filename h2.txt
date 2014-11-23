@@ -1,0 +1,314 @@
+    1  apt-get update
+    2  apt-get install openssh-server
+    3  apt-get install openssh-client
+    4  wget http://www.gtlib.gatech.edu/pub/apache/maven/binaries/apache-maven-3.0.4-bin.tar.gz
+    5  apt-get install git-core
+    6  git --version
+    7  mvn --version
+    8  mvn -v
+    9  apt-get install maven
+   10  mvn -version
+   11  apt-get install ubuntu-deskop
+   12  mvn
+   13  locate java
+   14  cd /usr/lib/jvm/java-7-openjdk-amd64/bin
+   15  ll
+   16  cd ..
+   17  cd jre
+   18  ll
+   19  cd bin/
+   20  ls
+   21  echo $PATH
+   22  cd /usr/lib/jvm/java-6-openjdk-amd64/bin/java
+   23  ls
+   24  echo PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/lib/jvm/java-6-openjdk-amd64/bin/
+   25  export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/lib/jvm/java-6-openjdk-amd64/bin/
+   26  echo $PATH
+   27  mvn 
+   28  export JAVA_HOME = /usr/lib/jvm/java-6-openjdk-amd64
+   29  export JAVA_HOME=/usr/lib/jvm/java-6-openjdk-amd64
+   30  mvn 
+   31  mvn -version
+   32  echo $http_proxy
+   33  apt-get update
+   34  cd ~
+   35  mkdir test
+   36  cd test
+   37  mvn archetype:generate
+   38  locate mvn
+   39  cd /usr/local/apache-maven-3.2.5/
+   40  ls
+   41  cd conf/
+   42  vim settings.xml 
+   43  apt-get install vim
+   44  vim settings.xml 
+   45  cd ~/test
+   46  mvn archetype:generate
+   47  cd /usr/local/apache-maven-3.2.5/
+   48  cd conf/
+   49  vim settings.xml 
+   50  cd ~/test
+   51  mvn archetype:generate
+   52  cd /usr/share/maven
+   53  ll
+   54  cd conf
+   55  vim settings.xml 
+   56  cd ~/test/
+   57  mvn archetype:generate
+   58  cd /usr/share/maven
+   59  vim /usr/share/maven/conf/settings.xml 
+   60  mvn archetype:generate
+   61  vim /usr/share/maven/conf/settings.xml 
+   62  mvn archetype:generate
+   63  vim /usr/share/maven/conf/settings.xml 
+   64  mvn archetype:generate
+   65  cd ~/test
+   66  mvn archetype:generate
+   67  vim /usr/share/maven/conf/settings.xml 
+   68  mvn archetype:generate
+   69  vim /usr/share/maven/conf/settings.xml 
+   70  locate settings.xml | maven
+   71  locate settings.xml | grep maven
+   72  vim /etc/maven/settings.xml
+   73  vim /usr/local/apache-maven-3.2.5/conf/settings.xml
+   74  mvn archetype:generate
+   75  apt-get remove maven
+   76  mvn
+   77  locate maven
+   78  apt-get update
+   79  apt-get install maven
+   80  mvn
+   81  mvn archetype:generate
+   82  apt-get purge maven
+   83  locate settings.xml | grep maven
+   84  ll /usr/local/apache-maven-3.2.5/conf/settings.xml
+   85  apt-get --cache update
+   86  apt-get cache --update
+   87  apt-get install maven
+   88  mvn
+   89  mvn archetype:generate
+   90  mvn -version
+   91  vim /usr/share/maven/conf/settings.xml 
+   92  mvn archetype:generate
+   93  mvn -X archetype:generate
+   94  vim /usr/share/maven/conf/settings.xml 
+   95  mvn -X archetype:generate
+   96  vim /usr/share/maven/conf/settings.xml 
+   97  mvn archetype:generate
+   98  vim /usr/share/maven/conf/settings.xml 
+   99  mvn archetype:generate
+  100  cd ~/.m2/repository
+  101  ll
+  102  vim  ~/.m2/repository/settings.xml
+  103  cd ~/test/
+  104  mvn archetype:generate
+  105  wget http://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-http-lightweight/2.2/wagon-http-lightweight-2.2.jar
+  106  cd /usr/share/maven/lib/
+  107  ll
+  108  cp ~/test/wagon-http-lightweight-2.2.jar .
+  109  cd ~/test
+  110  mvn archetype:generate
+  111  locate maven
+  112  clear
+  113  mvn archetype:generate 
+  114  locate java
+  115  locate javac
+  116  locate javaw
+  117  cd /usr/lib/jvm/java-7-openjdk-amd64/bin/
+  118  ll
+  119  cd /usr/lib/jvm/java-6-openjdk-amd64/jre/bin/
+  120  ll
+  121  locate javac
+  122  locate java
+  123  whatis java
+  124  whatis javac
+  125  apt-get install openjdk-6-jdk
+  126  locate javac
+  127  whatis javac
+  128  javac
+  129  locate maven
+  130  echo $JAVA_HOME
+  131  env
+  132  cd test
+  133  vim /usr/share/maven/conf/settings.xml 
+  134  mvn archetype:generate
+  135  cd /usr/share/maven/
+  136  ls
+  137  cd lib/
+  138  ls
+  139  cd ~/test
+  140  mvn clean install
+  141  mvn archetype:generate
+  142  export http_proxy="http://manish_kelkar:psl0812.....@hjproxy.persistent.co.in:8080/"
+  143  export https_proxy="https://manish_kelkar:psl0812.....@hjproxy.persistent.co.in:8080/"
+  144  mvn archetype:generate
+  145  mvn archetype:generate -Dhttp.proxyHost=<host> -Dhttp.proxyPort=<port> -Dhttps.proxyHost=<host> -Dhttps.proxyPort=<port>
+  146  mvn archetype:generate -Dhttp.proxyHost=ptproxy.persistent.co.in -Dhttp.proxyPort=8080 -Dhttps.proxyHost=ptproxy.persistent.co.in -Dhttps.proxyPort=8080
+  147  wget http://downloads.sourceforge.net/project/cntlm/cntlm/cntlm%200.92.3/cntlm_0.92.3_amd64.deb?r=http%3A%2F%2Fsourceforge.net%2Fprojects%2Fcntlm%2Ffiles%2Fcntlm%2Fcntlm%25200.92.3%2F&ts=1425986984&use_mirror=iweb
+  148  ls
+  149  mv "cntlm_0.92.3_amd64.deb?r=http:%2F%2Fsourceforge.net%2Fprojects%2Fcntlm%2Ffiles%2Fcntlm%2Fcntlm%200.92.3%2F" cntlm_0.92.3_amd64.deb
+  150  ls
+  151  dpkg -i cntlm_0.92.3_amd64.deb
+  152  mvn archetype:generate
+  153  locate 
+  154  locate cntlm.ini
+  155  vim /
+  156  vim /etc/cntlm.conf
+  157  vim /usr/share/maven/conf
+  158  vim /usr/share/maven/conf/settings.xml 
+  159  mvn archetype:generate
+  160  vim /etc/cntlm.conf 
+  161  service cntlm restart
+  162  mvn archetype:generate
+  163  vim /etc/cntlm.conf 
+  164  git
+  165  ls
+  166  wget -q -o -http://jenkins-ci.org/debin/jenkins-ci.org.key | sudo apt-key add -
+  167  wget -q -o - http://jenkins-ci.org/debin/jenkins-ci.org.key | sudo apt-key add -
+  168  wget -q -O - http://jenkins-ci.org/debin/jenkins-ci.org.key | sudo apt-key add -
+  169  wget -q -O - http://jenkins-ci.org/debian/jenkins-ci.org.key | sudo apt-key add -
+  170  ls
+  171  ls -ltr
+  172  date
+  173  sudo sh -c 'echo deb http://pkg.jenkins-ci.org/debin binary/ > /etc/apt/source.list.d/jenkins.list'
+  174  sudo sh -c 'echo deb http://pkg.jenkins-ci.org/debin binary/ > /etc/apt/sources.list.d/jenkins.list'
+  175  more /etc/apt/sources.list.d/jenkins.list
+  176  export http_proxy="http://vedprakash_hirwani:javaVed@03@ptproxy.persistent.co.in:8080/"
+  177  echo $http_proxy
+  178  export https_proxy="https://vedprakash_hirwani:javaVed@03@ptproxy.persistent.co.in:8080/"
+  179  echo $https_proxy
+  180  cls
+  181  clear;
+  182  export http_proxy="http://vedprakash_hirwani:javaVed\@03@ptproxy.persistent.co.in:8080/"
+  183  export https_proxy="https://vedprakash_hirwani:javaVed\@03@ptproxy.persistent.co.in:8080/"
+  184  echo $https_proxy
+  185  echo $http_proxy
+  186  clear
+  187  ls
+  188  cd test
+  189  ls
+  190  cd /etc/apt
+  191  ls
+  192  cd  sources.list.d/
+  193  ls
+  194  vi jenkins.list 
+  195  ls
+  196  cd ..
+  197  ls
+  198  vi apt.conf
+  199  pwd
+  200  ls
+  201  sudo apt-get update
+  202  vi apt.conf
+  203  export https_proxy="https://vedprakash_hirwani:javaVed@03@ptproxy.persistent.co.in:8080/"
+  204  export http_proxy="http://vedprakash_hirwani:javaVed@03@ptproxy.persistent.co.in:8080/"
+  205  sudo apt-get update
+  206  unum @;
+  207  unum @
+  208  export http_proxy="http://vedprakash_hirwani:javaVed%4003@ptproxy.persistent.co.in:8080/"
+  209  export https_proxy="https://vedprakash_hirwani:javaVed%4003@ptproxy.persistent.co.in:8080/"
+  210  ls
+  211  vi apt.conf
+  212  sudo apt-get update
+  213  ls
+  214  sudo apt-get update
+  215  service jenkins status
+  216  pwd
+  217  ls
+  218  cd sources.list.d
+  219  ls
+  220  more jenkins.list 
+  221  rm jenkins.list 
+  222  cd ..
+  223  sudo apt-get update
+  224  ls
+  225  sudo apt-get install jenkins
+  226  service jenkins status
+  227  service jenkins stop
+  228  vi /etc/default/jenkins 
+  229  pwd\
+  230  pwd
+  231  service jenkins start
+  232  service jenkins stop
+  233  sudo apt-gen upgrade
+  234  sudo apt-get upgrade
+  235  ls
+  236  service jenkins status
+  237  service jenkins start
+  238  vi /etc/default/jenkins 
+  239  git
+  240  mvn -version
+  241  cd /usr/share/maven
+  242  ls
+  243  cd conf
+  244  ls
+  245  vi settings.xml 
+  246  service cntlm status
+  247  service cntlm stop
+  248  service cntlm start
+  249  ls
+  250  vim /etc/cntlm.conf 
+  251  ls -ltr /etc/cntlm.conf 
+  252  history
+  253  cd
+  254  ls
+  255  mkdir ved
+  256  cd ved/
+  257  service cntlm restart
+  258  mvn archetype:generate -DgroupId=com.jenkins.ved -DartifactId=app D-DarchetypeArtifactId=maven-archetype=quickstart -DinteractiveMode=false
+  259  mvn archetype:create -DgroupId=com.jenkins.ved -DartifactId=app D-DarchetypeArtifactId=maven-archetype=quickstart -DinteractiveMode=false
+  260  mvn archetype:generate
+  261  ls
+  262  ls -R .
+  263  cd app/src/main/java/
+  264  ls
+  265  cd com/genkins/ved/
+  266  ls
+  267  more App.java 
+  268  vi App.java 
+  269  pwd
+  270  cd ..
+  271  ls
+  272  cd test/java/com/genkins/ved/
+  273  ls
+  274  vi AppTest.java 
+  275  more AppTest.java 
+  276  ls
+  277  cd ..
+  278  pwd
+  279  ls
+  280* mvn clean install/usr/share/maven
+  281  ls
+  282  cd ..
+  283  ls
+  284  history >h1.txt
+  285  ls
+  286  more h1.txt 
+  287  ls
+  288  git global --config user.name=ved2005
+  289  git
+  290  git --global --config user.name=ved2005
+  291  git  --config global  user.name=ved2005
+  292  git  config --global  user.name ved2005
+  293  git  config --global  user.email "vedprakash_hirwani@persistent.co.in"
+  294  git  config --global  http.proxy "http://vedprakash_hirwani:javaVed%4003@persistent.co.in"
+  295  git  config --global  https.proxy "https://vedprakash_hirwani:javaVed%4003@persistent.co.in"
+  296  git init
+  297  ls
+  298  git status
+  299  git add --all
+  300  ls
+  301  git status
+  302  pwd
+  303  history >h2.txt
+  304  git status
+  305  git commit -m "initial commit"
+  306  git remote add origin https://github.com/Ved2005/newRep.git
+  307  git push -u origin master
+  308  git  config --global  http.proxy "http://vedprakash_hirwani:javaVed%4003@ptproxy.persistent.co.in:8080"
+  309  git  config --global  https.proxy "https://vedprakash_hirwani:javaVed%4003@ptproxy.persistent.co.in:8080"
+  310  git remote add origin https://github.com/Ved2005/newRep.git
+  311  git push -u origin master
+  312  pwd
+  313  ls
+  314  history>h2.txt 
